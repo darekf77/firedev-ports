@@ -1,0 +1,28 @@
+{
+  "resources": [
+    "README.md"
+  ],
+  "isCoreProject": false,
+  "type": "angular-lib",
+  "version": "v3",
+  "required": [],
+  "overrided": {
+    "ignoreDepsPattern": [],
+    "includeAsDev": [],
+    "includeOnly": [],
+    "dependencies": {},
+    "linkedFolders": []
+  },
+  "linkedProjects": [],
+  "libReleaseOptions": {
+    "nodts": false,
+    "obscure": false,
+    "ugly": false
+  },
+  "workerPlugins": {},
+  "license": "MIT",
+  "private": false,
+  "isGenerated": false,
+  "useFramework": false,
+  "requiredServers": []
+}
