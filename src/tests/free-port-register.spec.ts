@@ -3,7 +3,7 @@ import { describe, it } from 'mocha'
 import { expect, use } from 'chai'
 import { Models } from 'tnp-models';
 import { PortInstance } from '../port-instance';
-import { PortsSet } from '../ports-set.backend';
+import { PortsSet } from '../ports-set';
 
 describe('Free port registration', () => {
 

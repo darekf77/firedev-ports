@@ -1,19 +1,15 @@
 //#region imports
 //#region isomorphic
 import { Helpers } from 'tnp-helpers';
-import { Models } from 'tnp-models';
+import { Models, BaseController } from 'tnp-models';
 import { CLASS } from 'typescript-class-helpers';
 //#endregion
 import { PortInstance } from './port-instance';
-import { PortsSet } from './ports-set.backend';
+import { PortsSet } from './ports-set';
 //#endregion
 
 @CLASS.NAME('PortsController')
-export class PortsController
-  //#region @backend
-  extends Models.db.BaseController<any>
-//#endregion
-{
+export class PortsController extends BaseController<any> {
   //#region fields & getters
   private _manager: PortsSet;
 

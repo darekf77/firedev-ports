@@ -1,7 +1,7 @@
 //#region imports
 //#region isomorphic
 import { _ } from 'tnp-core';
-import { Models } from 'tnp-models';
+import { Models, DBBaseEntity } from 'tnp-models';
 import { Project } from 'tnp-helpers';
 import { CLASS } from 'typescript-class-helpers';
 //#endregion
@@ -9,11 +9,7 @@ import { PortIdType } from './models';
 //#endregion
 
 @CLASS.NAME('PortInstance')
-export class PortInstance
-  //#region @backend
-  extends Models.db.DBBaseEntity<any>
-//#endregion
-{
+export class PortInstance extends DBBaseEntity<any> {
   //#region static methods
 
   //#region static methods / from
@@ -21,15 +17,17 @@ export class PortInstance
     id?: PortIdType,
     reservedFor?: Project | Models.system.SystemService
   ) {
+    //#region @backendFunc
     const ins = new PortInstance({ id, reservedFor });
     ins.assignProps();
     return ins;
+    //#endregion
   }
   //#endregion
 
   //#region static methods / clone
   static clone(p: PortInstance): PortInstance {
-    //#region @backend
+    //#region @backendFunc
     if (_.isObject(p.id) && !_.isArray(p.id)) {
       return PortInstance.from(Models.other.Range.clone(p.id as any), p.reservedFor);
     }
@@ -108,6 +106,7 @@ export class PortInstance
   //#region data
 
   assignProps() {
+    //#region @backend
     const { id, reservedFor } = this.data;
     if (_.isArray(id)) {
       this.id = _.sortBy(id);
@@ -115,6 +114,7 @@ export class PortInstance
       this.id = id;
     }
     this.reservedFor = reservedFor;
+    //#endregion
   }
 
   //#region data / prepare instance

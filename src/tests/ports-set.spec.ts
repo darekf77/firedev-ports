@@ -5,7 +5,7 @@ import { expect, use } from 'chai'
 import { Project } from 'tnp-helpers';
 import { Models } from 'tnp-models';
 import { PortInstance } from '../port-instance';
-import { PortsSet } from '../ports-set.backend';
+import { PortsSet } from '../ports-set';
 
 describe('Ports set tests', () => {
 
