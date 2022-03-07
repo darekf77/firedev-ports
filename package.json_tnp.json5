@@ -2,13 +2,7 @@
   "resources": [
     "README.md"
   ],
-  "isCoreProject": false,
-  "useFramework": false,
-  "type": "isomorphic-lib",
-  "required": [
-    "firedev-crud"
-  ],
-  "version": "v2",
+
   "overrided": {
     "ignoreDepsPattern": [],
     "includeAsDev": [],
@@ -22,10 +16,22 @@
     "obscure": false,
     "ugly": false
   },
-  "workerPlugins": {},
+
+  "isCoreProject": false,
+
+  "useFramework": false,
+
+  "type": "isomorphic-lib",
+
+  "required": [
+    "firedev-crud"
+  ],
+
+  "version": "v3",
+
+  'workerPlugins': {},
   "license": "UNLICENSED",
-  "private": true,
-  "main": "index.js",
+  'main': 'index.js',
   "isGenerated": false,
-  "requiredServers": []
+  'requiredServers': [],
 }
