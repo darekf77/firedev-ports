@@ -1,10 +1,9 @@
 {
-  "name": "firedev-ports",
-  "version": "13.0.3",
+  "": {},
+  "dependencies": {},
+  "devDependencies": {},
   "license": "UNLICENSED",
-  "dependencies": {
-    "firedev-crud": "~13.0.7"
-  },
   "main": "index.js",
-  "devDependencies": {}
+  "name": "firedev-ports",
+  "version": "13.0.3"
 }
