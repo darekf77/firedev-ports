@@ -5,7 +5,7 @@
 
   "overrided": {
     "ignoreDepsPattern": [],
-    "includeAsDev": "*",
+    "includeAsDev": [],
     "includeOnly": [  "firedev-crud"],
     "dependencies": {},
     "linkedFolders": []
