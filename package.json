@@ -1,6 +1,6 @@
 {
   "name": "firedev-ports",
-  "version": "13.0.2",
+  "version": "13.0.3",
   "license": "MIT",
   "dependencies": {
     "firedev-crud": "~13.0.7"
