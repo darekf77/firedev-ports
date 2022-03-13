@@ -1,10 +1,10 @@
 {
   "name": "firedev-ports",
   "version": "13.0.3",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "dependencies": {
     "firedev-crud": "~13.0.7"
   },
   "main": "index.js",
-  "private": false
+  "devDependencies": {}
 }
