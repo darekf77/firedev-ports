@@ -3,9 +3,9 @@
   "dependencies": {
     "firedev-crud": "~13.0.14"
   },
-  "license": "MIT",
+  "license": "UNLICENSED",
   "main": "index.js",
   "name": "firedev-ports",
   "version": "13.0.9",
-  "private": false
+  "devDependencies": {}
 }
