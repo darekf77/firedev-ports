@@ -3,7 +3,7 @@
   "dependencies": {
     "firedev-crud": "~13.0.21"
   },
-  "license": "MIT",
+  "license": "UNLICENSED",
   "main": "index.js",
   "name": "firedev-ports",
   "version": "13.0.15",
@@ -235,6 +235,5 @@
     "watch": "1.0.2",
     "zone.js": "~0.11.4"
   },
-  "lastBuildTagHash": "f85c0adebf34464eadddbd3f6b50a599e0525b4c",
-  "private": false
+  "lastBuildTagHash": "f85c0adebf34464eadddbd3f6b50a599e0525b4c"
 }
