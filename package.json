@@ -1,5 +1,4 @@
 {
-  "": {},
   "dependencies": {
     "firedev-crud": "~13.1.32"
   },
