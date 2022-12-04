@@ -117,7 +117,7 @@
     "fbgraph": "^1.4.1",
     "file-loader": "^1.1.5",
     "firedev-crud-deamon": "~13.1.23",
-    "firedev-ports": "~13.1.27",
+    "firedev-ports": "~13.1.28",
     "firedev-storage": "~13.1.18",
     "firedev-typeorm": "~13.1.5",
     "fkill": "6.1.0",
@@ -236,5 +236,5 @@
     "watch": "~1.0.2",
     "zone.js": "~0.11.4"
   },
-  "lastBuildTagHash": "ae8bab5c1e546cc5ce6b0e12270c3b99e2f5b76a"
+  "lastBuildTagHash": "42e8ff104f4a4efaa8dd66136bef9b4d4ff2c14d"
 }
