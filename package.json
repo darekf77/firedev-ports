@@ -118,7 +118,7 @@
     "file-saver": "2.0.5",
     "firedev": "^13",
     "firedev-crud-deamon": "~13.1.33",
-    "firedev-ports": "~13.1.37",
+    "firedev-ports": "~13.1.38",
     "firedev-storage": "~13.1.28",
     "firedev-typeorm": "~13.1.22",
     "firedev-ui": "~13.1.8",
@@ -246,5 +246,5 @@
   "main": "index.js",
   "name": "firedev-ports",
   "version": "13.1.38",
-  "lastBuildTagHash": "319d4d811e6c2aa22393f2755d20515bd53d2f96"
+  "lastBuildTagHash": "50660e3450b67e92183ea75f50173883aeb97ee7"
 }
