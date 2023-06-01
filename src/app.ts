@@ -2,8 +2,8 @@
 //#region @backend
 
 import { FiredevCrud } from 'firedev-crud';
-import { PortInstance } from './port-instance';
-import { PortsController } from './ports-controller';
+import { PortInstance } from './lib/port-instance';
+import { PortsController } from './lib/ports-controller';
 export default async function () {
 
   const fd = new FiredevCrud([PortsController], [PortInstance]);

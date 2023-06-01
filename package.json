@@ -246,6 +246,6 @@
   "license": "UNLICENSED",
   "main": "index.js",
   "name": "firedev-ports",
-  "version": "13.1.43",
+  "version": "13.1.44",
   "lastBuildTagHash": "3a2d4bdaaa7d0bc9e557060050c160beff677175"
 }
