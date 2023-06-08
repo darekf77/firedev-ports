@@ -28,7 +28,7 @@
   "isCoreProject": false,
   "useFramework": false,
   "required": [  ],
-  "version": 'v16',
+  "version": 'v4',
   'workerPlugins': {},
   "license": "UNLICENSED",
   'main': 'index.js',
