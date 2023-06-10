@@ -1,4 +1,39 @@
 {
+  "tnp": {
+    "resources": [
+      "README.md"
+    ],
+    "overrided": {
+      "ignoreDepsPattern": [],
+      "includeAsDev": [],
+      "includeOnly": [
+        "firedev-crud"
+      ],
+      "dependencies": {},
+      "linkedFolders": [],
+      "npmFixes": []
+    },
+    "linkedProjects": [],
+    "smartContainerBuildTarget": "",
+    "linkedRepos": [],
+    "libReleaseOptions": {
+      "nodts": false,
+      "obscure": false,
+      "ugly": false,
+      "includeNodeModules": false
+    },
+    "smartContainerTarget": "",
+    "type": "isomorphic-lib",
+    "isCoreProject": false,
+    "useFramework": false,
+    "required": [],
+    "version": "v4",
+    "workerPlugins": {},
+    "license": "UNLICENSED",
+    "main": "index.js",
+    "isGenerated": false,
+    "requiredServers": []
+  },
   "dependencies": {
     "firedev-crud": "~16.0.52"
   },
@@ -248,7 +283,6 @@
     "zone.js": "~0.13.0"
   },
   "license": "UNLICENSED",
-  "main": "index.js",
   "name": "firedev-ports",
   "version": "16.0.47",
   "lastBuildTagHash": "8db302cdf645d935bc2501b831afeb9a44e87b21"
