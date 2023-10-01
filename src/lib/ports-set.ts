@@ -69,7 +69,7 @@ export class PortsSet {
     if (_.isUndefined(howManyPorts) && _.isString(projectLocationOrSystemService)) {
 
       const proj = Project.From(projectLocationOrSystemService);
-      howManyPorts = 1 + (proj.isWorkspace ? proj.children.length : 0)
+      howManyPorts = 1;
     }
     return PortsSet.count.freePorts(ports) >= howManyPorts;
   }
@@ -105,7 +105,7 @@ export class PortsSet {
 
     if (isProject) {
       var project = (projectLocationOrSystemService as Project);
-      if (project.isWorkspace || project.isStandaloneProject) {
+      if (project.isStandaloneProject) {
         saveInstancesToDb = true;
       }
     }
