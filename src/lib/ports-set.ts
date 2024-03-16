@@ -1,5 +1,5 @@
 import { _ } from 'tnp-core';
-import { Helpers, Project } from 'tnp-helpers';
+import { Helpers, BaseProject as Project } from 'tnp-helpers';
 import { PortInstance } from './port-instance';
 import { Models } from 'tnp-models';
 import { CLASS } from 'typescript-class-helpers';
@@ -68,7 +68,7 @@ export class PortsSet {
 
     if (_.isUndefined(howManyPorts) && _.isString(projectLocationOrSystemService)) {
 
-      const proj = Project.From(projectLocationOrSystemService);
+      const proj = Project.ins.From(projectLocationOrSystemService);
       howManyPorts = 1;
     }
     return PortsSet.count.freePorts(ports) >= howManyPorts;
@@ -104,7 +104,7 @@ export class PortsSet {
     }
 
     if (isProject) {
-      var project = (projectLocationOrSystemService as Project);
+      var project = (projectLocationOrSystemService as any);
       if (project.isStandaloneProject) {
         saveInstancesToDb = true;
       }

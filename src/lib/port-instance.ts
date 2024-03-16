@@ -2,7 +2,7 @@
 //#region isomorphic
 import { _ } from 'tnp-core';
 import { Models, DBBaseEntity } from 'tnp-models';
-import { Project } from 'tnp-helpers';
+import { BaseProject as Project } from 'tnp-helpers';
 import { CLASS } from 'typescript-class-helpers';
 //#endregion
 import { PortIdType } from './models';
