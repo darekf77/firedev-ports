@@ -1,3 +1,4 @@
-import { Models } from 'tnp-models';
+// // @ts-nocheck
+// import { Models } from 'tnp-models';
 
-export type PortIdType = number | number[] | Models.other.Range;
+// export type PortIdType = number | number[] | Models.other.Range;
