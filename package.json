@@ -23,7 +23,8 @@
       "includeNodeModules": false,
       "cliBuildNoDts": false,
       "cliBuildObscure": false,
-      "cliBuildIncludeNodeModules": false
+      "cliBuildIncludeNodeModules": false,
+      "cliBuildUglify": false
     },
     "smartContainerTarget": "",
     "type": "isomorphic-lib",
@@ -320,5 +321,6 @@
   "license": "UNLICENSED",
   "name": "firedev-ports",
   "version": "16.5.18",
-  "lastBuildTagHash": "a7a351eaea77154a3f822bf0421f98a151ebf627"
+  "lastBuildTagHash": "a7a351eaea77154a3f822bf0421f98a151ebf627",
+  "main": "index.js"
 }
