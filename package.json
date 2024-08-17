@@ -345,7 +345,7 @@
   },
   "license": "UNLICENSED",
   "name": "firedev-ports",
-  "version": "18.0.3",
+  "version": "18.0.4",
   "lastBuildTagHash": "08216f40c6de8b1887d545bd9f8b12e8ca8639f1",
   "main": "index.js"
 }
